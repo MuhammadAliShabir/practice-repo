@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: practice-repo
+    repo: https://github.com/MuhammadAliShabir/practice-repo
+    buildCommand: "npm install"
+    startCommand: "node server.js"
+    rootDir: "server"
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
