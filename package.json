@@ -4,6 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "install": "install",
     "start": "node server.js"
   },
   "dependencies": {
